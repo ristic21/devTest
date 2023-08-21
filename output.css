@@ -126,7 +126,7 @@ a:hover,
 .sourceThree {
   position: sticky;
   top: 575px;
-  left: 1845px;
+  left: 1840px;
   z-index: 99;
   backdrop-filter: blur(10px);
 }
@@ -1293,8 +1293,201 @@ a:hover,
 }
 
 @media (max-width: 767px) {
-  body > * {
-    font-size: 14px;
+  body {
+    height: 6490px;
+  }
+
+  .navContainer {
+    margin-left: 210px;
+  }
+
+  .underHeaderImg {
+    margin-left: 330px;
+  }
+
+  .mainHeaderContainer {
+    width: 580px;
+    height: 50px;
+    position: sticky;
+  }
+
+  .headerFont {
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117%;
+    text-transform: uppercase;
+    margin-left: 15px;
+  }
+
+  .sourceOne {
+    top: 330px;
+    left: 640px;
+  }
+
+  .sourceTwo {
+    top: 370px;
+    left: 640px;
+  }
+
+  .sourceThree {
+    top: 415px;
+    left: 640px;
+  }
+
+  .sourceFour {
+    top: 455px;
+    left: 640px;
+  }
+
+  .sourceFive {
+    top: 495px;
+    left: 640px;
+  }
+
+  .sourceSix {
+    top: 535px;
+    left: 640px;
+  }
+
+  .sourceStickyImg {
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+  }
+
+  .joinImage {
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 100px;
+  }
+
+  .joinContainerInfo {
+    margin-left: 40px;
+  }
+
+  .joinVector {
+    width: 50px;
+    height: 50px;
+  }
+
+  .arrowsImg {
+    width: 40px;
+    height: 17px;
+    margin-top: 265px;
+  }
+
+  .sideDots {
+    width: 39px;
+    height: 70px;
+    margin-top: -40px;
+  }
+
+  .codeImg {
+    margin-top: 20px;
+    margin-left: 24px;
+    width: 600px;
+    height: 407px;
+  }
+
+  .underCodeContentContainer {
+    display: flex;
+    flex-direction: column;
+    width: 904px;
+    margin: 60px;
+  }
+
+  .underCodeContentContainer {
+    width: 604px;
+    margin: 40px;
+  }
+
+  .contentTitle {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -2.02px;
+    text-transform: uppercase;
+  }
+
+  .contentTitleYellow {
+    color: #D5FF2F;
+  }
+
+  .contentUnderCode {
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 23px;
+    letter-spacing: -0.4px;
+    margin-top: -15px;
+  }
+
+  .contentUnderCodeImg {
+    width: 70px;
+    height: 68px;
+    flex-shrink: 0;
+    margin-top: 236px;
+    margin-left: 60px;
+    margin-right: 50px;
+  }
+
+  .orangeDots {
+    width: 40px;
+    height: 70px;
+    top: 2200px;
+  }
+
+  .blueDotsAfterCode {
+    width: 49px;
+    height: 75px;
+    top: 1560px;
+    left: 603px;
+    border: 2px;
+  }
+
+  .video {
+    position: absolute;
+    width: 545px;
+    height: 382px;
+    top: 2176px;
+    left: 68px;
+    z-index: 2;
+  }
+
+  .glow::before,
+.glow::after {
+    content: "";
+    position: absolute;
+    width: 550px;
+    height: 387px;
+    top: 2174px;
+    left: 65px;
+    background: linear-gradient(45deg, #D5FF2F, #FF2473, #FFF, #361281);
+    background-size: 400%;
+    animation: animate 20s linear infinite;
+    z-index: 1;
+  }
+
+  .whyUs {
+    width: 336px;
+    height: 80px;
+    top: 2623px;
+    left: 28px;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -1.22px;
+    color: #FFF;
+  }
+
+  .whyUsVector {
+    position: absolute;
+    width: 61px;
+    height: 60px;
+    top: 2654px;
+    left: 565px;
+    border: 2px;
   }
 }
 
