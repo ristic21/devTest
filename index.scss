@@ -25,7 +25,8 @@ a:active,
 .quora:active,
 .github:active,
 .reddit:active,
-.stackoverflowRim:active {
+.stackoverflowRim:active,
+.playButton:active {
     transform: scale(0.85);
 }
 
@@ -37,7 +38,8 @@ a:hover,
 .quora:hover,
 .github:hover,
 .reddit:hover,
-.stackoverflowRim:hover {
+.stackoverflowRim:hover,
+.playButton:hover {
     cursor: pointer;
 }
 
@@ -1346,11 +1348,11 @@ a:hover,
 @media (max-width: 767px) {
 
     body {
-        height: 6490px;
+        height: 7120px;
     }
 
     .navContainer {
-        margin-left: 210px;
+        margin-left: 110px;
     }
 
     .underHeaderImg {
@@ -1358,7 +1360,7 @@ a:hover,
     }
 
     .mainHeaderContainer {
-        width: 580px;
+        width: 530px;
         height: 50px;
         position: sticky;
     }
@@ -1374,32 +1376,32 @@ a:hover,
 
     .sourceOne {
         top: 330px;
-        left: 640px;
+        left: 600px;
     }
 
     .sourceTwo {
         top: 370px;
-        left: 640px;
+        left: 600px;
     }
 
     .sourceThree {
         top: 415px;
-        left: 640px;
+        left: 600px;
     }
 
     .sourceFour {
         top: 455px;
-        left: 640px;
+        left: 600px;
     }
 
     .sourceFive {
         top: 495px;
-        left: 640px;
+        left: 600px;
     }
 
     .sourceSix {
         top: 535px;
-        left: 640px;
+        left: 600px;
     }
 
     .sourceStickyImg {
@@ -1438,23 +1440,13 @@ a:hover,
     .codeImg {
         margin-top: 20px;
         margin-left: 24px;
-        width: 600px;
-        height: 407px;
-    }
-
-    .underCodeContentContainer {
-        display: flex;
-        flex-direction: column;
-        width: 904px;
-        margin: 60px;
+        width: 550px;
+        height: 387px;
     }
 
 
-    //
-
-
     .underCodeContentContainer {
-        width: 604px;
+        width: 504px;
         margin: 40px;
     }
 
@@ -1478,6 +1470,7 @@ a:hover,
         line-height: 23px;
         letter-spacing: -0.4px;
         margin-top: -15px;
+        width: 400px;
     }
 
     .contentUnderCodeImg {
@@ -1506,7 +1499,7 @@ a:hover,
 
     .video {
         position: absolute;
-        width: 545px;
+        width: 505px;
         height: 382px;
         top: 2176px;
         left: 68px;
@@ -1519,7 +1512,7 @@ a:hover,
     .glow::after {
         content: '';
         position: absolute;
-        width: 550px;
+        width: 510px;
         height: 387px;
         top: 2174px;
         left: 65px;
@@ -1550,6 +1543,750 @@ a:hover,
         border: 2px;
     }
 
+    .title {
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0.88px;
+        width: 292px;
+        height: 100px;
+        top: 2715px;
+    }
+
+    .paragraph {
+        font-size: 12px;
+        font-weight: 200;
+        line-height: 23px;
+        letter-spacing: -0.2px;
+        width: 272px;
+        height: 199px;
+        margin-top: 75px;
+        top: 2750px;
+    }
+
+    .titleOne {
+        left: 18px;
+
+    }
+
+    .paragraphOne {
+        left: 18px;
+
+    }
+
+    .titleTwo {
+        left: 300px;
+    }
+
+    .paragraphTwo {
+        left: 300px;
+    }
+
+    .titleThree {
+        top: 2880px;
+        left: 13px;
+
+    }
+
+    .paragraphThree {
+        top: 2900px;
+        left: 13px;
+    }
+
+    .mobile1 {
+        top: 2880px;
+        left: 310px;
+    }
+
+    .mobile1Paragraph {
+        top: 2900px;
+        left: 310px;
+    }
+
+    .mobile2 {
+        top: 3060px;
+        left: 13px;
+    }
+
+    .mobile2Paragraph {
+        top: 3060px;
+        left: 13px;
+    }
+
+    .mobile3 {
+        top: 3060px;
+        left: 300px;
+    }
 
 
+    .mobile3Paragraph {
+        top: 3060px;
+        left: 300px;
+    }
+
+    .twoVectors {
+        width: 56px;
+        height: 56px;
+        top: 2904px;
+        left: 479px;
+    }
+
+    .blueVectorOne {
+        width: 21px;
+        height: 20px;
+        top: 3030px;
+        left: 590px;
+    }
+
+    .blueVectorTwo {
+        width: 21px;
+        height: 20px;
+        top: 3030px;
+        left: 620px;
+
+    }
+
+    .blueVectorThree {
+        display: none;
+    }
+
+    .vector2 {
+        top: 3060px;
+    }
+
+    .vector3 {
+        top: 3090px;
+    }
+
+    .vector4 {
+        top: 3120px;
+    }
+
+    .vector5 {
+        top: 3150px;
+    }
+
+    .beforeCeoImg {
+
+        width: 50px;
+        height: 50px;
+        top: 3254px;
+        left: 14px;
+
+    }
+
+    .arrowBeforeCeoImg {
+        width: 40px;
+        height: 18px;
+        top: 3282px;
+        left: 276px;
+    }
+
+    .bogdan {
+        width: 258px;
+        height: 258px;
+        top: 3347px;
+        left: 20px;
+    }
+
+    .bogdanDecor {
+        width: 68px;
+        height: 53px;
+        top: 3558px;
+        left: 230px;
+    }
+
+    .ceoHeader {
+        width: 288px;
+        height: 37px;
+        top: 3340px;
+        left: 316px;
+        font-size: 30px;
+    }
+
+    .founderTitle {
+        width: 134px;
+        height: 20px;
+        top: 3377px;
+        left: 316px;
+    }
+
+    .ceoContent {
+        width: 299px;
+        height: 231px;
+        top: 3413px;
+        left: 356px;
+    }
+
+    .quoteCeo {
+        position: absolute;
+        width: 33px;
+        height: 22px;
+        top: 3433px;
+        left: 316px;
+    }
+
+    .ringAfterCeo {
+        width: 40px;
+        height: 30px;
+        top: 3720px;
+        left: 600px;
+        border: 2px;
+    }
+
+    .contributorsHeader {
+
+        width: 327px;
+        height: 90px;
+        top: 3780px;
+        left: 30px;
+        font-size: 54px;
+        font-weight: 500;
+        letter-spacing: -2px;
+    }
+
+    .dejanMarkovic {
+        width: 180px;
+        height: 180px;
+        top: 3900px;
+        left: 30px;
+    }
+
+    .dejanMarkovicHeading {
+        width: 153px;
+        height: 30px;
+        top: 4060px;
+        left: 30px;
+        font-size: 23px;
+    }
+
+    .dejanMarkovicContent {
+        width: 153px;
+        height: 32px;
+        top: 4090px;
+        left: 30px;
+        font-size: 18px;
+    }
+
+    .andrea {
+        width: 180px;
+        height: 180px;
+        top: 3900px;
+        left: 353px;
+    }
+
+    .andreaHeading {
+        width: 153px;
+        height: 30px;
+        top: 4060px;
+        left: 353px;
+        font-size: 23px;
+    }
+
+    .andreaContent {
+        width: 153px;
+        height: 32px;
+        top: 4090px;
+        left: 353px;
+        font-size: 18px;
+    }
+
+    .stefan {
+        width: 180px;
+        height: 180px;
+        top: 4190px;
+        left: 30px;
+    }
+
+    .stefanHeading {
+        width: 153px;
+        height: 30px;
+        top: 4350px;
+        left: 30px;
+        font-size: 23px;
+    }
+
+    .stefanContent {
+        width: 153px;
+        height: 32px;
+        top: 4380px;
+        left: 30px;
+        font-size: 18px;
+    }
+
+    .timLing {
+        width: 180px;
+        height: 180px;
+        top: 4190px;
+        left: 353px;
+    }
+
+    .timLingHeading {
+        width: 303px;
+        height: 30px;
+        top: 4350px;
+        left: 353px;
+    }
+
+    .timLingContent {
+        width: 303px;
+        height: 32px;
+        top: 4389px;
+        left: 353px;
+        font-size: 18px;
+    }
+
+    .kozomora {
+        width: 180px;
+        height: 180px;
+        top: 4460px;
+        left: 30px;
+    }
+
+    .kozomoraHeading {
+        width: 303px;
+        height: 30px;
+        top: 4613px;
+        left: 30px;
+    }
+
+    .kozomoraContent {
+        width: 303px;
+        height: 32px;
+        top: 4649px;
+        left: 30px;
+        font-size: 18px;
+    }
+
+    .masked {
+        width: 180px;
+        height: 180px;
+        top: 4460px;
+        left: 353px;
+    }
+
+    .maskedContent {
+        width: 303px;
+        height: 30px;
+        top: 4613px;
+        left: 353px;
+
+    }
+
+    .joinComunityButton {
+        width: 172px;
+        height: 66px;
+        top: 4700px;
+        left: 276px;
+        font-size: 12px;
+    }
+
+    .afterContributorsParagraph {
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 57px;
+        width: 437px;
+        height: 114px;
+        top: 4770px;
+        left: 100px;
+    }
+
+    .afterContributorsRedDots {
+        width: 45px;
+        height: 70px;
+        top: 4900px;
+        left: 10px;
+    }
+
+    .afterContributorsImage {
+        width: 83px;
+        height: 70px;
+        top: 4930px;
+        left: 534px;
+        border: 1.5px;
+    }
+
+    .arrowsAfterContributors {
+        width: 50px;
+        height: 18px;
+        top: 5050px;
+        left: 264px;
+    }
+
+    .joinNetworkHeading {
+        width: 459px;
+        height: 160px;
+        top: 5054px;
+        left: 37px;
+        font-size: 54px;
+        font-weight: 500;
+        line-height: 110%;
+        letter-spacing: -2px;
+    }
+
+    .discord {
+        width: 40px;
+        height: 40px;
+        top: 5530px;
+        left: 163px;
+    }
+
+
+    .discordRim {
+        width: 192px;
+        height: 142px;
+        top: 5479px;
+        left: 87px;
+    }
+
+    .githubRim {
+        width: 192px;
+        height: 142px;
+        top: 5400px;
+        left: 213px;
+
+    }
+
+    .github {
+        width: 40px;
+        height: 40px;
+        top: 5451px;
+        left: 289px;
+    }
+
+    .stackoverflowRim {
+        width: 192px;
+        height: 142px;
+        top: 5446px;
+        left: 346px;
+    }
+
+    .quoraRim {
+        width: 91px;
+        height: 91px;
+        top: 5580px;
+        left: 436px;
+        border: 2px;
+    }
+
+    .quora {
+        width: 25px;
+        height: 25px;
+        top: 5614px;
+        left: 469px;
+    }
+
+    .reddit {
+        width: 28px;
+        height: 28px;
+        top: 5636px;
+        left: 560px;
+    }
+
+    .redditRim {
+        width: 100px;
+        height: 100px;
+        top: 5597px;
+        left: 524px;
+        border: 2px;
+    }
+
+    .youtube {
+        width: 28px;
+        height: 28px;
+        top: 5535px;
+        left: 556px;
+    }
+
+    .youtubeRim {
+        width: 100px;
+        height: 100px;
+        top: 5497px;
+        left: 519px;
+        border: 2px;
+    }
+
+    .afterRimsTribalImg {
+        width: 70px;
+        height: 60px;
+        top: 5757px;
+        left: 41px;
+    }
+
+    .headingIntro {
+        width: 303px;
+        height: 80px;
+        top: 5707px;
+        left: 127px;
+        font-size: 41px;
+        font-weight: 500;
+        letter-spacing: -2px;
+    }
+
+    .vectorRingIntro {
+        width: 30px;
+        height: 30px;
+        top: 5777px;
+        left: 440px;
+        border: 1.5px;
+    }
+
+    .introCircles {
+        width: 40px;
+        height: 70px;
+        top: 5780px;
+        left: 583px;
+        border: 2px;
+    }
+
+    .guyWithGoodSetup {
+        width: 506px;
+        height: 361px;
+        top: 5908px;
+        left: 85px;
+    }
+
+    .playButton {
+        width: 66px;
+        height: 66px;
+        top: 6043px;
+        left: 295px;
+    }
+
+    .blueDotsAfterVideo {
+        width: 40px;
+        height: 70px;
+        top: 6308px;
+        left: 5px;
+    }
+
+    .afterVideoTribalImg {
+        width: 70px;
+        height: 65px;
+        top: 6289px;
+        left: 548px;
+    }
+
+    .arrowsAfterVideo {
+        width: 40px;
+        height: 20px;
+        top: 6390px;
+        left: 353px;
+    }
+
+    .newsHeading {
+        width: 319px;
+        height: 61px;
+        top: 6420px;
+        left: 37px;
+        font-size: 54px;
+        font-weight: 500;
+        line-height: 117%;
+        letter-spacing: -2px;
+    }
+
+    .newsImage {
+        width: 130px;
+        height: 203px;
+        top: 6510px;
+        left: 65px;
+        rotate: -90deg;
+    }
+
+    .newsDate {
+        width: 132px;
+        height: 32px;
+        top: 6660px;
+        left: 28px;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 32px;
+        letter-spacing: -0.8px;
+    }
+
+    .newsTitle {
+        width: 282px;
+        height: 30px;
+        top: 6680px;
+        left: 28px;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 35px;
+        letter-spacing: 0.58px;
+    }
+
+    .newsContent {
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 150;
+        line-height: 18px;
+        letter-spacing: -1px;
+        width: 282px;
+        height: 74px;
+        top: 6720px;
+        left: 28px;
+    }
+
+    .readMore {
+        width: 85px;
+        height: 20px;
+        top: 6800px;
+        left: 28px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 111%;
+        letter-spacing: -0.24px;
+    }
+
+    .secondNewsLeft {
+        left: 320px;
+    }
+
+    .secondNewsImg {
+        left: 355px;
+    }
+
+    .viewNewsButton {
+        width: 140px;
+        height: 45px;
+        top: 6870px;
+        left: 10px;
+        font-size: 9px;
+    }
+
+    .afterNewsTribal {
+        width: 50px;
+        height: 50px;
+        top: 6890px;
+        left: 8px;
+    }
+
+    .afterNewsArrows {
+        width: 50px;
+        height: 20px;
+        top: 6930px;
+        left: 461px;
+    }
+
+    .footerLogo {
+        width: 150px;
+        height: 36px;
+        top: 6990px;
+        left: 30px;
+    }
+
+    .homeLinkFooter {
+        width: 42px;
+        height: 22px;
+        top: 7000px;
+        left: 231px;
+    }
+
+    .linkFooterText {
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 22px;
+        letter-spacing: -0.7px;
+    }
+
+    .documentationLinkFooter {
+        width: 42px;
+        height: 22px;
+        top: 7030px;
+        left: 231px;
+    }
+
+    .startTodayLinkFooter {
+        width: 112px;
+        height: 22px;
+        top: 7060px;
+        left: 231px;
+    }
+
+    .firstColumnIcon {
+        width: 16px;
+        height: 16px;
+        top: 7010px;
+        left: 376px;
+
+    }
+
+    .secondColumnIcon {
+        width: 16px;
+        height: 16px;
+        top: 7010px;
+        left: 406px;
+    }
+
+    .secondRowIcons {
+        top: 7040px;
+    }
+
+    .thirdRowIcons {
+        top: 7070px;
+    }
+
+    .circleFour {
+        display: none;
+    }
+
+    .circleFive {
+        display: none;
+    }
+
+    .circleOne {
+        width: 30px;
+        height: 30px;
+        top: 6978px;
+        left: 454px;
+        border: 2px;
+    }
+
+    .circleTwo {
+        width: 30px;
+        height: 30px;
+        top: 6978px;
+        left: 494px;
+        border: 2px;
+    }
+
+    .circleThree {
+        width: 30px;
+        height: 30px;
+        top: 6978px;
+        left: 534px;
+        border: 2px;
+    }
+
+    .secondRowVector {
+        top: 7018px;
+    }
+
+    .thirdRowVector {
+        top: 7058px;
+    }
+
+    .fourthRowVector {
+        top: 7098px;
+    }
+
+    .fifthRowVector {
+        top: 7135px;
+    }
+
+    .footerParagraph {
+        width: 336px;
+        height: 32px;
+        top: 7108px;
+        left: 100px;
+        font-size: 18px;
+        font-weight: 200;
+        line-height: 22px;
+        letter-spacing: -0.82px;
+    }
 }
